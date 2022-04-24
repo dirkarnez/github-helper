@@ -1,2 +1,4 @@
-github-desktop-app-boilerplate
-==============================
+github-helper
+=============
+### Features
+- [x] batch create repository
