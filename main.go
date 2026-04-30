@@ -56,10 +56,8 @@ func main() {
 		}
 
 		_, _, err := client.Repositories.Create(context.Background(), "", &repo)
-
 		if err != nil {
-			fmt.Printf("Error when creating \"%s\": %v\n", s, err)
-			return
+			panic(err)
 		} else {
 			fmt.Printf("Succesfully created\"%s\"\n", s)
 		}
