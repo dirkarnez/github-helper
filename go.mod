@@ -1,6 +1,6 @@
 module github.com/dirkarnez/github-helper
 
-go 1.17
+go 1.25
 
 require (
 	github.com/google/go-github/v41 v41.0.0 // indirect
